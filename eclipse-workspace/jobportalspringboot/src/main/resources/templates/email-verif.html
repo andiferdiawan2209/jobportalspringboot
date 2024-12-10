@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Verification</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px;
+        border: 1px solid #dddddd;
+      }
+      .header {
+        background-color: #007bff;
+        color: #ffffff;
+        padding: 10px;
+        text-align: center;
+      }
+      .content {
+        margin: 20px 0;
+      }
+      .otp-code {
+        font-size: 24px;
+        color: #007bff;
+        font-weight: bold;
+      }
+      .footer {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 12px;
+        color: #aaaaaa;
+      }
+      .logo {
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://www.lawencon.com/wp-content/uploads/2024/06/Logo.png"
+        alt="Company Logo"
+        class="logo"
+      />
+
+      <div class="header">
+        <h1>Account Verification</h1>
+      </div>
+      <div class="content">
+        <p>Hello, thank you for registering on our platform.</p>
+        <p>Your OTP code is:</p>
+        <p class="otp-code">{{otpCode}}</p>
+        <p>This code is valid for 15 minutes.</p>
+      </div>
+      <div class="footer">
+        <p>&copy; 2024 PT Lawencon. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
